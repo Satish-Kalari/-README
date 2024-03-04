@@ -1,0 +1,42 @@
+- **Navigation:**
+  - `h` - Move cursor left
+  - `j` - Move cursor down
+  - `k` - Move cursor up
+  - `l` - Move cursor right
+  - `gg` - Go to the beginning of the file
+  - `G` - Go to the end of the file
+  - `0` - Go to the beginning of the line
+  - `$` - Go to the end of the line
+  - `w` - Move cursor to the beginning of the next word
+  - `b` - Move cursor to the beginning of the previous word
+  - `Ctrl + f` - Scroll forward one page
+  - `Ctrl + b` - Scroll backward one page
+
+- **Editing:**
+  - `i` - Insert text before the cursor
+  - `a` - Append text after the cursor
+  - `o` - Open a new line below the current line
+  - `O` - Open a new line above the current line
+  - `x` - Delete character under the cursor
+  - `dd` - Delete current line
+  - `yy` - Copy current line
+  - `p` - Paste copied or deleted text after the cursor
+  - `u` - Undo the last change
+  - `Ctrl + r` - Redo the last change
+
+- **Search and Replace:**
+  - `/pattern` - Search for a pattern
+  - `n` - Move to the next occurrence of the pattern
+  - `N` - Move to the previous occurrence of the pattern
+  - `:%s/old/new/g` - Replace all occurrences of "old" with "new" in the entire file
+  - `:s/old/new/g` - Replace all occurrences of "old" with "new" in the current line
+
+- **Saving and Quitting:**
+  - `:w` - Save the file
+  - `:q` - Quit Vim
+  - `:q!` - Quit Vim without saving changes
+
+- **Miscellaneous:**
+  - `:set number` - Display line numbers
+  - `:set syntax=markdown` - Set syntax highlighting for Markdown files
+  - `:help` - Open Vim's built-in help documentation
