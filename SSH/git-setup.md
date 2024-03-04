@@ -20,3 +20,11 @@ create config file [with out any extension] in .ssh folder with the following co
 # Set your username and email in the Git configuration:
     git config --global user.name "Satish-Kalari"
     git config --global user.email "sarvag@gmail.com"
+
+# Set the URL for the Git repository:
+    git remote set-url origin <repository-url>
+    
+    Replace <repository-url> with the URL of your Git repository.
+
+
+    
